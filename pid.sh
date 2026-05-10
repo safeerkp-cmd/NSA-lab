@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in *
+do
+        if [ -f "$i" ]
+        then
+                mv "$i" "$i.$$"
+        fi
+done
