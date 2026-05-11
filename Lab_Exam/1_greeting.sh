@@ -6,7 +6,7 @@ currenttime=$h
 echo "$currenttime"
 if [ $h -lt 12 ]
 then
-        echo "Good morining"
+	echo "Good morning"
 elif [ $h -lt 16 ]
 then
         echo "good After noon"

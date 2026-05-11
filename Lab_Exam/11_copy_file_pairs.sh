@@ -3,7 +3,7 @@
 
 if [ `expr $# % 2 ` -ne 0  ]
 then
-        echo "ERORR: give more than two files"
+	echo "ERROR: even number of arguments required (source destination pairs)"
         exit 1
 fi
 while [ $# -ne 0 ]

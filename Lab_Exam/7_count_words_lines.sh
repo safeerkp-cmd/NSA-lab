@@ -3,7 +3,7 @@
 
 if [ $# -eq 0 ]
 then
-        echo "erorr:one file needed"
+	echo "error:one file needed"
         exit 1
 fi
 
@@ -18,5 +18,5 @@ do
         done
 done <  $1
 echo "Number of line = $line"
-echo "numberof words = $word"
+echo "Number of words = $word"
 ~
